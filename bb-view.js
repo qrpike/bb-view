@@ -29,9 +29,14 @@ var ItemView = Backbone.View.extend({
 		// Bind functions
 		_.bindAll(this,'onRender', 'render');
 	},
+	
+	// Placeholder in case you want to override what data goes to the template.
+	_getData: function(){
+		return this.model || this;	
+	},
 
 	render: function(){
-		this.$el.html( this.template( this.model || this ) );
+		this.$el.html( this.template( this._getData() ) );
 		this.onRender();
 		return this;
 	},
