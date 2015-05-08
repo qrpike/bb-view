@@ -1,0 +1,28 @@
+{
+  "name": "bb-view",
+  "version": "1.0.0",
+  "description": "Backbone JS Base view for Item and List views",
+  "main": "bb-view.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qrpike/bb-view.git"
+  },
+  "keywords": [
+    "backbone",
+    "backbonejs",
+    "views"
+  ],
+  "author": "Quinton Pike",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qrpike/bb-view/issues"
+  },
+  "homepage": "https://github.com/qrpike/bb-view",
+  "dependencies": {
+    "backbone": "^1.1.2",
+    "underscore": "^1.8.3"
+  }
+}
